@@ -3,3 +3,13 @@ body {
   /* padding: 2rem; */
   /* text-align: center; */
 }
+
+.parentContainer {
+  display: flex;
+}
+
+.innerContainer {
+  flex: 1;
+  padding: 15px;
+  margin: 15px;
+}
