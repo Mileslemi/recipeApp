@@ -1,0 +1,19 @@
+.formContainer{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 35px;
+    border-radius: 10px;
+   box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+}
+
+.formInput{
+  border: none;
+  width: 500px;
+  padding: 1px;
+  font-size: 16px;
+}
+
+.formInput:focus{
+    outline: none;
+}
