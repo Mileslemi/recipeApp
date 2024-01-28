@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "./mealcontainer.module.css";
 
-const MealContainer = ({ meal }) => {
+const MealContainer = ({ meal, fetchMealInfo }) => {
   return (
     <div className={styles.container}>
       <img src={meal.image} />
       <p>{meal.title}</p>
       <div className={styles.btnContainer}>
-        <button>View Recipe</button>
+        <button onClick={() => fetchMealInfo(meal.id)}>View Recipe</button>
       </div>
     </div>
   );
