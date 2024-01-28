@@ -1,17 +1,19 @@
-import { useState } from 'react'
-import './App.css'
-import Header from './components/header'
-import Form from './components/Form'
+import { useState } from "react";
+import "./App.css";
+import Header from "./components/header";
+import Search from "./components/Search";
+import MealsList from "./components/MealsList";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [meals, setMeals] = useState([]);
 
   return (
     <div className="App">
       <Header />
-      <Form/>
+      <Search setMeals={setMeals} />
+      <MealsList meals={meals} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
