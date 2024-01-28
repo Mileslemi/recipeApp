@@ -1,0 +1,38 @@
+.container {
+  width: 305px;
+  height: 320px;
+  margin: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.2);
+  /* display: grid; */
+  /* padding: 10px; */
+}
+
+.container img {
+  width: 100%;
+}
+
+.container p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: cursive;
+  margin: 0;
+}
+
+.container button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 15px 0;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}

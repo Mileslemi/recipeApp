@@ -1,10 +1,11 @@
 import React from "react";
+import MealContainer from "./MealContainer";
 
 const MealsList = ({ meals }) => {
   return (
     <div>
       {meals.map((meal) => (
-        <li key={meal.id}>{meal.title}</li>
+        <MealContainer key={meal.id} meal={meal} />
       ))}
     </div>
   );
